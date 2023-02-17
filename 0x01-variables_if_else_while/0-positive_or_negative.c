@@ -7,7 +7,7 @@
  * main - program entry
  *
  * Description: assigns n a random number each time it's executed
- * return: returns whether n is positive, zero or negative
+ * Return: whether n is positive, zero or negative
  */
 int main(void)
 {
