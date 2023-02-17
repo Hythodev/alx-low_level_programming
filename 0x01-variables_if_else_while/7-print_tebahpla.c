@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	int l, c;
+	int l;
 
 	l = 'z';
 
