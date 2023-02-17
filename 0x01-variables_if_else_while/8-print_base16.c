@@ -25,8 +25,8 @@ int main(void)
 
 	l += 40;
 
-	 while (l <= 102)
-	 {
+	while (l <= 102)
+	{
 		putchar(l);
 		l++;
 	}
