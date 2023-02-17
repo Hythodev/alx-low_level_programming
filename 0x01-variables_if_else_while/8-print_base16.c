@@ -23,6 +23,8 @@ int main(void)
 		l++;
 	}
 
+	l += 40;
+
 	 while (l <= 102)
 	 {
 		putchar(l);
