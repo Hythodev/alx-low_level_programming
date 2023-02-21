@@ -5,7 +5,7 @@
  * print_alphabet - program entry
  *
  * Description: print letters
- * Return: 0
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -19,5 +19,4 @@ void print_alphabet(void)
 		l++;
 	}
 	_putchar('\n');
-	return (0);
 }
