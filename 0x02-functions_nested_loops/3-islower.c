@@ -2,7 +2,8 @@
 /* more headers goes there */
 
 /**
- * print_alphabet - program entry
+ * _islower - returns 1 if lowercase otherwise 0
+ * @c: int character value
  *
  * Description: print letters
  * Return: void
