@@ -3,7 +3,7 @@
 
 /**
  * _abs - value
- * @int: int
+ * @n: int
  *
  * Return: int
  */
