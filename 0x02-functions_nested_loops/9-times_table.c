@@ -47,7 +47,7 @@ void times_table(void)
 			if ((prod < 10) && ((n * (i + 1)) <= 9))
 				_putchar(32);
 			if ((i != 9) && (prod >= 10))
-				_putchar(32)i;
+				_putchar(32);
 		}
 		n++;
 		_putchar('\n');
