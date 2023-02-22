@@ -2,14 +2,14 @@
 /* more headers goes there */
 
 /**
- * print_to_98 - write values
+* print_to_98 - write values
  * @n: int
  *
  * Return: void
  */
 
 /**
- * write_num - sub-routine
+ * write_num - sub function
  * @num: int
  *
  * Return: void
