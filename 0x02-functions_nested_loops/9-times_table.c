@@ -30,7 +30,7 @@ void times_table(void)
 	while (n <= 9)
 	{
 		int i;
-		
+
 		for (i = 0; i <= 9; i++)
 		{
 			int prod;
