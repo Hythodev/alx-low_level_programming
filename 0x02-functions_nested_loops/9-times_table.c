@@ -30,6 +30,7 @@ void times_table(void)
 	while (n <= 9)
 	{
 		int i;
+		
 		for (i = 0; i <= 9; i++)
 		{
 			int prod;
@@ -39,7 +40,10 @@ void times_table(void)
 			write_num(prod);
 			
 			if (i != 9)
+			{
 				_putchar(44);
+				_putchar(32);
+			}
 		}
 		n++;
 		_putchar('\n');
