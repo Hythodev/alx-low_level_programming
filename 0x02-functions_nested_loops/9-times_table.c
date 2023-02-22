@@ -23,13 +23,14 @@ void write_num(int num)
  */
 void times_table(void)
 {
-	int n
+	int n;
 
 	n = 0;
 
 	while (n <= 9)
 	{
-		for (int i = 0; i <= 9; i++)
+		int i;
+		for (i = 0; i <= 9; i++)
 		{
 			int prod;
 
@@ -41,6 +42,6 @@ void times_table(void)
 				_putchar(44);
 		}
 		n++;
-		_putchar('\n');;
+		_putchar('\n');
 	}
 }
