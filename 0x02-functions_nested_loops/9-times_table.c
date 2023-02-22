@@ -38,17 +38,9 @@ void times_table(void)
 			prod = n * i;
 
 			write_num(prod);
-			if ((i != 9) && (prod < 10))
+			if (i != 9)
 			{
 				_putchar(44);
-				_putchar(32);
-				_putchar(32);
-				_putchar(32);
-			}
-			if ((i != 9) && (prod > 9))
-			{
-				_putchar(44);
-				_putchar(32);
 			}
 		}
 		n++;
