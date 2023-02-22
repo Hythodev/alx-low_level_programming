@@ -2,14 +2,7 @@
 /* more headers goes there */
 
 /**
-* print_to_98 - write values
- * @n: int
- *
- * Return: void
- */
-
-/**
- * write_num - sub function
+* write_num - write values
  * @num: int
  *
  * Return: void
@@ -28,6 +21,12 @@ void write_num(int num)
 	_putchar(num % 10 + '0');
 }
 
+/**
+* print_to_98 - write values
+ * @n: int
+ *
+ * Return: void
+ */
 void print_to_98(int n)
 {
 	if (n > 98)
