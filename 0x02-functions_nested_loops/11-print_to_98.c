@@ -7,6 +7,13 @@
  *
  * Return: void
  */
+
+/**
+ * write_num - sub-routine
+ * @num: int
+ *
+ * Return: void
+ */
 void write_num(int num)
 {
 	if (num < 0)
