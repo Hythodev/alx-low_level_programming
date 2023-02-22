@@ -12,7 +12,7 @@ void write_num(int num)
 	if (num < 0)
 	{
 		_putchar('-');
-		n = -n;
+		num = -num;
 	}
 
 	if (num / 10)
