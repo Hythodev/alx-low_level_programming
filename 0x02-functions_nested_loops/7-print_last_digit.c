@@ -12,9 +12,7 @@ int print_last_digit(int n)
 	int l;
 
 	if (n < 0)
-		n = (n * -1);
-	if (n == INT_MIN)
-		n = (INT_MIN * -1)
+		n = (n * -1);)
 
 	l = n % 10;
 
