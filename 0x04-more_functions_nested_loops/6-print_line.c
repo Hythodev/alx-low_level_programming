@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- * print_line - line
+ * print_line - lines
  * @n: int
  *
  * Return: void
