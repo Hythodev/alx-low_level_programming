@@ -11,6 +11,7 @@ void write_num(int num)
 {
 	if (num / 10)
 		write_num(num / 10);
+
 	_putchar(num % 10 + '0');
 }
 
@@ -23,7 +24,7 @@ void more_numbers(void)
 {
 	int i, j;
 
-        j = 0;
+	j = 0;
 
 	while (j < 10)
 	{
