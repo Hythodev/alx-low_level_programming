@@ -9,7 +9,7 @@
 void write_num(int num)
 {
 	if (num / 10)
-		write_num(n / 10);
+		write_num(num / 10);
 	_putchar(num % 10 + '0');
 }
 
