@@ -14,7 +14,7 @@ int _isdigit(int c)
 	{
 		return (1);
 	}
-	if ((c >= 65 && c <= 90) || (c <= 97 && c <= 122))
+	else
 	{
 		return (0);
 	}
