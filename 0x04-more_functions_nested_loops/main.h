@@ -14,3 +14,4 @@ void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
 void write_num(int num);
+void print_line(int n);
