@@ -1,16 +1,23 @@
 #include "main.h"
+/* more headers goes there */
 
 /**
- * _isupper - check upper
- * @c: int char
+ * _isupper - returns 1 if uppercase otherwise 0
+ * @c: int character value
  *
- * Return: int
+ * Description: print letters
+ * Return: void
  */
-
 int _isupper(int c)
 {
-	if ((c >= 65) && (c <= 90))
+	if (c >= 65 && c <= 90)
+	{
 		return (1);
-	else
-		return (0)
+	}
+	if (c >= 97 && c <= 122)
+	{
+		return (0);
+	}
+
+	return (0);
 }
