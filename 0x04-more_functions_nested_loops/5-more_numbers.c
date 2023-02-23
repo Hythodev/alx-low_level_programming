@@ -21,7 +21,7 @@ void write_num(int num)
  */
 void more_numbers(void)
 {
-	int i, ji;
+	int i, j;
 
         j = 0;
 
