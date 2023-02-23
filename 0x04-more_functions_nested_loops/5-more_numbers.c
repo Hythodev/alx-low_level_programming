@@ -2,7 +2,8 @@
 /* more headers goes there */
 
 /**
- * more_numbers - numbers
+ * write_num - numbers
+ * @num: int
  *
  * Return: void
  */
@@ -20,7 +21,7 @@ void write_num(int num)
  */
 void more_numbers(void)
 {
-	int i, j;
+	int i, ji;
 
         j = 0;
 
