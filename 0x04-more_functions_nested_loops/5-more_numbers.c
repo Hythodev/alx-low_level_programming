@@ -22,11 +22,11 @@ void more_numbers(void)
 {
 	int i, j;
 
-        i = 0;
+        j = 0;
 
 	while (j < 10)
 	{
-		j = 0;
+		i = 0;
 
 		while (i <= 14)
 		{
