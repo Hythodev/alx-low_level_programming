@@ -43,7 +43,8 @@ void print_triangle(int size)
 				l++;
 			}
 			_putchar('\n');
-			i++;
+			i--;
+			m++;
 		}
 
 	}
