@@ -2,7 +2,7 @@ i#include "main.h"
 /* more headers goes there */
 
 /**
- * print_linr - line
+ * print_line - line
  * @n: int
  *
  * Return: void
