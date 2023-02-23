@@ -4,7 +4,7 @@
  * _isupper - check upper
  * @c: int char
  *
- * Returns: int
+ * Return: int
  */
 
 int _isupper(int c)
