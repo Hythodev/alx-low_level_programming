@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * main - testing code
+ *
+ * Return: int;
+ */
 int main(void)
 {
 	int k;
