@@ -1,11 +1,5 @@
 #include "main.h"
-/* more headers goes there */
 
-/**
- * main - function
- *
- * Return: int
- */
 int main(void)
 {
 	int k;
