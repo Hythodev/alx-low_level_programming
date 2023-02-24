@@ -3,11 +3,10 @@
 
 /**
  * main - function
- * @i: int
  *
- * Return: void
+ * Return: int
  */
-int main (void)
+int main(void)
 {
 	int k;
 
