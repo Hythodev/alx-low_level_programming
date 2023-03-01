@@ -7,7 +7,7 @@
  *
  * Return: string
  */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
 	int i, n;
 
@@ -15,7 +15,7 @@ char *cap_string(char *s)
 	;
 
 	n = n + 1;
-
+i
 	for (i = 0; i < n; i++)
 	{
 		if (i == 0 && (str[i] != ' ' || str[i] != 9 || str[i] != 10 || str[i] != 44 
