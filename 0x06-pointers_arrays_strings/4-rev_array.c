@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /**
- *reverse_array - array
+ * reverse_array - array
  * @a: array
  * @n: int param
  *
