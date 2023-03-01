@@ -30,11 +30,11 @@ char *cap_string(char *str)
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
 			{
-				str[i] = (char)(('A' - 'a') + str[i]);
+				str[i] = str[i] - 32;
 			}
 			else if (str[i] >= 'A' && str[i] <= 'Z')
 			{
-				str[i] = (char)(str[i] + ('a' - 'A'));
+				str[i] = str[i] + 32;
 			}
 		}
 	}
