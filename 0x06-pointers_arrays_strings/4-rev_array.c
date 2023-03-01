@@ -2,8 +2,8 @@
 /* more headers goes there */
 
 /**
- * reverse_array - array
- * @a:array  param
+ *reverse_array - array
+ * @a: array
  * @n: int param
  *
  * Return: void
