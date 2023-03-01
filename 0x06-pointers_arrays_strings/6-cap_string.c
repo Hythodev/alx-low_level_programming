@@ -3,7 +3,7 @@
 
 /**
  * cap_string - string
- * @s: string param
+ * @str: string param
  *
  * Return: string
  */
