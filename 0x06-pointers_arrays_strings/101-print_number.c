@@ -1,0 +1,17 @@
+#include "main.h"
+/* more headers goes there */
+
+/**
+ * print_number - numbers
+ * @n: int
+ *
+ * Return: void
+ */
+void print_number(int n)
+{
+	if (n / 10)
+		print_number(n / 10);
+
+	_putchar(n % 10 + '0');
+	_putchar('\n');
+}
