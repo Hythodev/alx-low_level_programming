@@ -7,8 +7,8 @@
  *
  * Return: string
  */
-char *cap_string(char *str) {
-
+char *cap_string(char *str)
+{
 	int i, n;
 
 	for (n = 0; str[n] != '\0'; ++n)
@@ -18,7 +18,6 @@ char *cap_string(char *str) {
 
 	for (i = 0; i < n; i++)
 	{
-
 		if (i == 0 && (str[i] != ' ' || str[i] != 9 || str[i] != 10 || str[i] != 44 
 		|| str[i] != 59 || str[i] != 46 || str[i] != 33 || str[i] != 63 || 
 		str[i] != 34 || str[i] != 40 || str[i] != 41 || str[i] != 123 || 
