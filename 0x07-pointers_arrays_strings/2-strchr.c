@@ -18,7 +18,7 @@ char *_strchr(char *s, char c)
 
 	i = 0;
 
-	int *p;
+	char  *p;
 
 	while (i < j)
 	{
