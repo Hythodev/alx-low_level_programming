@@ -25,14 +25,13 @@ char *_strdup(char *str)
 
 	if (array == NULL)
 		return (NULL);
-	else
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (i = 0; str[i] != '\0'; i++)
-		{
-			array[i] = str[i];
-		}
-		array[i] = '\0';
-		return (array);
+		array[i] = str[i];
 	}
+	array[i] = '\0';
+	return (array);
+
 	free(array);
 }
