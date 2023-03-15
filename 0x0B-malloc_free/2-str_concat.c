@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	for (l = 0; s2[l] != '\0'; ++l)
 	;
 
-	l = j + 1 + k + 1;
+	l = j + 1 + l + 1;
 
 	array = malloc(sizeof(char) * l);
 
