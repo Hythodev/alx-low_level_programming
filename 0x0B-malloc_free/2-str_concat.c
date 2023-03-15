@@ -19,7 +19,7 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; s1[j] != '\0'; j++)
 	;
 
-	for (l = 0; s2[l] != '\0'; ++l)
+	for (l = 0; s2[l] != '\0'; l++)
 	;
 
 	l = j + 1 + l + 1;
@@ -39,7 +39,7 @@ char *str_concat(char *s1, char *s2)
 	for (n = 0; s1[n] != '\0'; n++)
 		array[n] = s1[n];
 
-	array[n + 1] = '\0';
+	array[n] = '\0';
 
 	return (array);
 }
