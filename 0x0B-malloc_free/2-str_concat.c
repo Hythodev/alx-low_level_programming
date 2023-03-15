@@ -8,7 +8,7 @@
  *
  * Return: string
  */
-char *str_concat(char *s, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	int j, k, l, n;
 
