@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _create_array - function
+ * create_array - function
  * @size: int param
  * @c: char param
  *
@@ -16,11 +16,11 @@ char *create_array(unsigned int size, char c)
 	{
 		array = malloc(sizeof(char) * size);
 		array[0] = c;
-		return array;
+		return (*array);
 	}
 	else
 	{
-		return NULL;
+		return (NULL);
 	}
 
 }
