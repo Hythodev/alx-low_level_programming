@@ -9,7 +9,7 @@
  */
 char *_strdup(char *str)
 {
-	char array[];
+	char *array;
 
 	array = str;
 
