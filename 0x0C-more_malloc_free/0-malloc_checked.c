@@ -13,7 +13,7 @@ void *malloc_checked(unsigned int b)
 {
 	unsigned int array;
 
-	array = malloc(sizeof(unsigned int));
+	array = malloc(b);
 
 	if (array == NULL)
 		return (98);
