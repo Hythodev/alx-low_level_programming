@@ -11,7 +11,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *array;
+	void *array;
 
 	array = malloc(b);
 
