@@ -1,5 +1,6 @@
+#ifndef
 #include <stdio.h>
-
+#endif
 /**
  * struct dog - structure
  * @name: name
@@ -13,4 +14,4 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
