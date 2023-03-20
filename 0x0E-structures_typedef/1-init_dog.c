@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <god.h>
+#include <stdlib.h>
+#include <dog.h>
 
 /**
  * init_dog - function
