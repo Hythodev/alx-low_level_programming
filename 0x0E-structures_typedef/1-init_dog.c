@@ -1,7 +1,5 @@
 #include <stdio.h>
-#ifndef DOG_H
-#define DOG_H
-#endif
+#include <god.h>
 
 /**
  * init_dog - function
