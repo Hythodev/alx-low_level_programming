@@ -7,3 +7,4 @@
  * Return: c
  */
 int _putchar(char c);
+int main();
