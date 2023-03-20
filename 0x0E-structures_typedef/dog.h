@@ -1,6 +1,4 @@
-#ifndef
 #include <stdio.h>
-#endif
 /**
  * struct dog - structure
  * @name: name
