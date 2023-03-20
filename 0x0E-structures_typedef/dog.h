@@ -2,6 +2,14 @@
 #define STDIO_H
 #endif
 
+/**
+ * struct dog - structure
+ * @name: name
+ * @age: age
+ * @owner: owner
+ *
+ * Description: dog
+ */
 struct dog
 {
 	char *name;
