@@ -1,9 +1,6 @@
-#ifndef STDIO_H
-#define STDIO_H
-#endif
+#include <stdio.h>
 /**
  * main - function
- * @void: param
  *
  * Return - int
  */
