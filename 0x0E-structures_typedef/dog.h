@@ -1,6 +1,4 @@
-#ifndef STDIO_H
 #include <stdio.h>
-#endif
 
 /**
  * struct dog - structure
