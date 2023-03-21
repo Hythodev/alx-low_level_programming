@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include "dog.h"
 
 /**
  * _putchar - writes c to output
