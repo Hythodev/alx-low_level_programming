@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- *print_strings - function
+ * print_strings - function
  * @separator: char
  * @n: int
  *
@@ -21,6 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		char *k;
 
 		k = va_arg(ap, char*);
+
 		if (k != "")
 			printf("%s", k);
 		else
