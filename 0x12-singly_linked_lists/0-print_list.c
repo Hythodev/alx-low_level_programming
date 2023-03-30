@@ -41,6 +41,7 @@ int print_list(const list_t *h)
 			printf("[%d] %s", 0, "(nil)");
 
 		h = h->next;
+
 		l++;
 		printf("\n");
 	}
