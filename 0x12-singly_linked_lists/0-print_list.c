@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 
 /**
@@ -14,7 +13,7 @@ int print_list(const list_t *h)
 
 	l = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 		if (h->str != NULL)
 		{
